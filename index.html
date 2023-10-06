@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Form</title>
+    <link rel="stylesheet" href="fstyle.css">
+
+</head>
+<body> <center>Student Information</center>
+    <br><br>
+    <fieldset>
+        <legend> Personal Details</legend>
+    <form action="submitmessage.html">
+    <label for="fname">First Name</label>
+    <span>*</span><br>
+
+    <input type="fname" required id="fname" name="fname"><br><br>
+
+    <label for="mname">Middle Name</label><br>
+    <input type="mname" id="mname" name="mname"><br><br>
+
+    <label for="lname"> Last Name</label>
+    <span>*</span><br>
+
+    <input type="lname" required id="lname" name="lname"><br><br>
+
+    <label for="dob"> DOB</label>
+    <span>*</span><br>
+
+    <input type="date" required id="dob" name="dob"><br><br>
+
+    <label for="email"> E-mail Id</label>
+    <span>*</span><br>
+
+    <input type="email" required id="email" name="email"><br><br>
+
+    </fieldset><br><br>
+
+
+    <fieldset>
+        <legend>Educational details</legend>
+        <form action="submitmessage.html">
+        <label for="">Department:</label><br>
+    <input type="radio" id="cse" name="dept">
+    <label for="cse">CSE</label>
+
+    <input type="radio" id="ec" name="dept">
+    <label for="ec">EC</label>
+
+    <input type="radio" id="Mech" name="dept">
+    <label for="Mech">EC</label>
+
+    <input type="radio" id="Civil" name="dept">
+    <label for="Civil">EC</label><br><br>
+    
+    <label for="yog">YOG</label>
+    <input list="yoga" id="yog" name="yog">
+
+    <datalist id="yoga">
+    
+        <option >2019</option>
+        <option >2020</option>
+        <option >2021</option>
+        <option >2022</option>
+        <option >2023</option>
+        </datalist><br><br>
+       
+        <label for="">Skills:</label><br><br>
+        <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label>
+       
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="js" name="js">
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="ur">Upload Resume</label>
+<input type="file" required name="ur" id="ur"><br><br>
+
+
+
+        
+        
+
+    </fieldset><br><br>
+    <button>Submit</button>
+</form>
+</form>
+    
